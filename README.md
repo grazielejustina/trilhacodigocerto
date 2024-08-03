@@ -95,8 +95,14 @@ print(estatisticas)
 4. **Visualização de Dados**
    - **Objetivo**: Crie pelo menos dois tipos de gráficos utilizando bibliotecas como Matplotlib ou Seaborn, como gráficos de barras para contagem de categorias e gráficos de dispersão para relação entre variáveis.
      - **Gráficos de Barras**: Demostrar a contagem de vendas por curso.
+
+![Código Certo Coders](Gráfico 1.png)
+
      - **Gráficos de Dispersão**: Demostrar a relação entre data e receita.
    - **Como Fazer**: importar as bibliotecas Pandas, Matplotlib e Seaborn, carregar o caminho para o arquivo CSV, ler o arquivo com diferentes codificações, calcular a receita total, estatísticas descritivas básicas, gráfico de Barras - contagem de vendas por curso, gráfico de dispersão - relação entre data e receita e ajuste da legenda necessário.
+
+![Código Certo Coders](Gráfico 2.png)
+
    - **Descrição do código Python**: 
 
 import pandas as pd
