@@ -19,3 +19,4 @@ caminho_arquivo = 'C:\\Users\\grazi\\Downloads\\codes\\Análise de Dados Vendas 
 
 # Carregar o DataFrame
 df = carregar_csv(caminho_arquivo)
+
