@@ -282,11 +282,11 @@ plt.tight_layout()
 4. **Visualizações**:
 - **Gráfico de Barras**: Demostrou a contagem total de vendas para cada curso, ajudando a identificar quais cursos têm mais vendas.
 
-![Gráfico1](Gráfico 1.png)
+![Gráfico1](Grafico1.png)
 
 - **Gráfico de Dispersão**: Demostrou a relação entre a receita e a data, facilitando a visualização de como as vendas variaram ao longo do tempo.
 
-![Gráfico2](Gráfico 2.png)
+![Gráfico2](Grafico2.png)
 
 ## Insights Obtidos
 
