@@ -1,6 +1,6 @@
 # Trilha CódigoCerto Analista de Dados Júnior
 
-Desafio: Este projeto tem como objetivo realizar uma análise básica de dados utilizando Python, explorando um conjunto de dados sugerido para extrair insights simples através de estatísticas descritivas e visualizações gráficas.
+# Desafio: Este projeto tem como objetivo realizar uma análise básica de dados utilizando Python, explorando um conjunto de dados sugerido para extrair insights simples através de estatísticas descritivas e visualizações gráficas.
 
 ### Descrição do Projeto
 
@@ -195,7 +195,7 @@ print(f'A receita gerada foi de : R${curso_mais_vendido["Receita"]:.2f}')
 
 ### Código Python completo com explicações de cada etapa:
 
-# Importar as bibliotecas Pandas, Matplotlib e Seaborn
+#Importar as bibliotecas Pandas, Matplotlib e Seaborn
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -211,24 +211,24 @@ def carregar_csv(caminho_arquivo):
         except UnicodeDecodeError:
             continue
  
-# caminho para o arquivo CSV
+#caminho para o arquivo CSV
 caminho_arquivo = 'C:\\Users\\grazi\\Downloads\\codes\\Análise de Dados Vendas de Cursos Online.csv'
 
-# carregar o DataFrame
+#carregar o DataFrame
 df = carregar_csv(caminho_arquivo)
 
-# calcular a receita total das vendas
+#calcular a receita total das vendas
 df['Receita'] = df['Quantidade de Vendas'] * df['Preço Unitário']
 receita_total = df['Receita'].sum()
 print(f'\nA receita total gerada pelas vendas é: R${receita_total:.2f}')
 
-# identificar o curso com o maior número de vendas
+#identificar o curso com o maior número de vendas
 curso_mais_vendido = df.loc[df['Quantidade de Vendas'].idxmax()]
 print(f'O curso com o maior número de vendas é: {curso_mais_vendido["Nome do Curso"]}')
 print(f'O número de vendas foi de: {curso_mais_vendido["Quantidade de Vendas"]}')
 print(f'A receita gerada foi de : R${curso_mais_vendido["Receita"]:.2f}')
 
-# estatísticas descritivas básicas
+#estatísticas descritivas básicas
 estatisticas = df[['Quantidade de Vendas', 'Preço Unitário', 'Receita']].describe().T  
 estatisticas['Mediana'] = df[['Quantidade de Vendas', 'Preço Unitário', 'Receita']].median()
 estatisticas = estatisticas[['mean', '50%', 'min', 'max', 'std']]  
@@ -236,7 +236,7 @@ estatisticas.columns = ['Média', 'Mediana', 'Mínimo', 'Máximo', 'Desvio Padr�
 print("Estatísticas Descritivas Básicas:")
 print(estatisticas)
 
-# Gráfico de Barras - Contagem de Vendas por Curso
+#Gráfico de Barras - Contagem de Vendas por Curso
 plt.figure(figsize=(14, 8))
 sns.barplot(x="Quantidade de Vendas", y="Nome do Curso", data=df, estimator=sum, errorbar=None, palette="viridis")
 plt.title("Contagem de Vendas por Curso")
@@ -244,11 +244,11 @@ plt.xlabel("Quantidade de Vendas")
 plt.ylabel("Nome do Curso")
 plt.show()
 
-# Gráfico de Dispersão - Relação entre Data e Receita
+#Gráfico de Dispersão - Relação entre Data e Receita
 plt.figure(figsize=(12, 6))
 scatter_plot = sns.scatterplot(x="Data", y="Receita", data=df, hue="Nome do Curso", palette="viridis", s=100)
 
-# Ajuste da legenda necessário
+#Ajuste da legenda necessário
 plt.title("Relação entre Data e Receita")
 plt.xlabel("Data")
 plt.ylabel("Receita")
@@ -271,5 +271,5 @@ plt.tight_layout()
 
 Este projeto fornece uma análise abrangente dos dados de vendas de cursos, com o objetivo de oferecer insights valiosos para melhorar as estratégias de vendas e marketing.
 
-Projeto apresentado como Trilha Inicial de Analista de Dados Júnior no Projeto CódigoCerto.
+### Projeto apresentado como Trilha Inicial de Analista de Dados Júnior no Projeto CódigoCerto.
 
