@@ -281,7 +281,12 @@ plt.tight_layout()
 3. **Curso com Mais Vendas**: Identificado o curso com o maior número de vendas.
 4. **Visualizações**:
 - **Gráfico de Barras**: Demostrou a contagem total de vendas para cada curso, ajudando a identificar quais cursos têm mais vendas.
+
+![Gráfico1](Gráfico 1.png)
+
 - **Gráfico de Dispersão**: Demostrou a relação entre a receita e a data, facilitando a visualização de como as vendas variaram ao longo do tempo.
+
+![Gráfico2](Gráfico 2.png)
 
 ## Insights Obtidos
 
@@ -290,5 +295,5 @@ plt.tight_layout()
 
 Este projeto fornece uma análise abrangente dos dados de vendas de cursos, com o objetivo de oferecer insights valiosos para melhorar as estratégias de vendas e marketing.
 
-## Projeto apresentado como Trilha Inicial de Analista de Dados Júnior no Projeto CódigoCerto.
+# Projeto apresentado como Trilha Inicial de Analista de Dados Júnior no Projeto CódigoCerto.
 
