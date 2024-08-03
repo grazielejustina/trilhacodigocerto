@@ -295,5 +295,5 @@ plt.tight_layout()
 
 Este projeto fornece uma análise abrangente dos dados de vendas de cursos, com o objetivo de oferecer insights valiosos para melhorar as estratégias de vendas e marketing.
 
-# Projeto apresentado como Trilha Inicial de Analista de Dados Júnior no Projeto CódigoCerto.
+**Projeto apresentado como Trilha Inicial de Analista de Dados Júnior no Projeto CódigoCerto.**
 
