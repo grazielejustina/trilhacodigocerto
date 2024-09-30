@@ -1,4 +1,4 @@
-![Código Certo Coders](68747470733a2f2f757466732e696f2f662f33623233343065382d353532332d346163612d613534392d3036383866643037343530652d6a346564752e6a666966.jpeg)
+![Código Certo Coders](CodigoCerto.jpeg)
 
 # Trilha CódigoCerto Analista de Dados Júnior
 
